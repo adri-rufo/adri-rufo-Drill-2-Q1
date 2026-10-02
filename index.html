@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate a Movie</title>
+    <style>
+        body{
+            background-color:hsl(335, 100%, 89%);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Rate a Movie</h1>  
+    <img src="pink logo.jpg" alt="logo" width="250" height="250">
+<form>
+    <label for="movietitle">Title of the movie</label>
+    <input type="text" id="movie" name="movie" placeholder="write the title">
+    <br><br>
+    <label for="genre"><b>Genre of the movie</b></label>
+    <input type="checkbox" id="action" name="action" value="action">
+    <label for="action">Action</label>
+    <input type="checkbox" id="horror" name="horror" value="horror">
+    <label for="horror">Horror</label>
+    <input type="checkbox" id="romance" name="romance" value="romance">
+    <label for="romance">Romance</label>
+    <input type="checkbox" id="comedy" name="comedy" value="comedy">
+    <label for="comedy">Comedy</label>
+    <input type="checkbox" id="sci-fi" name="sci-fi" value="sci-fi">
+    <label for="sci-fi">Sci-fi</label>
+    <br><br>
+    <label for="rating">Rating</label>
+    <br>
+    <input type="radio" id="rating" name="rating" value="*">
+    <label for="*">★</label>
+    <input type="radio" id="rating" name="rating" value="**">
+    <label for="**">★★</label>
+    <input type="radio" id="rating" name="rating" value="***">
+    <label for="***">★★★</label>
+    <input type="radio" id="rating" name="rating" value="****">
+    <label for="****">★★★★</label>
+    <input type="radio" id="rating" name="rating" value="*****">
+    <label for="*****">★★★★★</label>
+    <br><br>
+    <label for="review">Review of the movie</label>
+    <br>
+    <textarea id="review" name="review" rows="4" cols="50" placeholder="Kindly share your thoughts about the movie..."></textarea>
+    <br><br><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
